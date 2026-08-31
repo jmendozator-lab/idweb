@@ -1,9 +1,9 @@
-Introduccion al desarrollo de web
+# Introduccion al desarrollo de web
 
-Profesor 
+# Profesor 
 
-. Richard Escobedo
+  . Richard Escobedo
 
-Estudiante
+# Estudiante
 
-. Jhoel Adrian Mendoza Torres
+  . Jhoel Adrian Mendoza Torres
