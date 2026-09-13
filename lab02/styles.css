@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Tarjeta Receptora (Card) */
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Estilos de Fieldset y Legend */
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1e293b;
+    padding: 0 8px;
+}
+
+/* Estructura de Campos */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Estados Interactivos (:hover, :focus, etc.) */
+.form-input:hover {
+    border-color: #94a3b8;
+}
+
+.form-input:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.radio-group label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* Botón Enviar */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn-submit:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-submit:active {
+    transform: scale(0.98);
+}
